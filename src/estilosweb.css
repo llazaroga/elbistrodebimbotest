@@ -590,7 +590,7 @@ section{
       @keyframes patitaizq1 {
         
         0% { opacity: 1; }
-        80% {opacity: 0}
+        80% {opacity: 0;}
         100% {opacity: 0;}
         
       }
@@ -607,7 +607,7 @@ section{
       @keyframes patitaizq2 {
         
         0% { opacity: 1; }
-        51% {opacity: 0}
+        51% {opacity: 0;}
         100% {opacity: 0;}
       }
       #patita_izq3{
@@ -622,7 +622,7 @@ section{
       @keyframes patitaizq3 {
         
         0% { opacity: 1; }
-        17% {opacity: 0}
+        17% {opacity: 0;}
         100% {opacity: 0;}
       }
 
@@ -638,7 +638,7 @@ section{
       @keyframes patitader1 {
         
         0% { opacity: 1; }
-        85% {opacity: 0}
+        85% {opacity: 0;}
         100% {opacity: 0;}
       }
 
@@ -654,7 +654,7 @@ section{
       @keyframes patitader2 {
         
         0% { opacity: 1; }
-        68% {opacity: 0}
+        68% {opacity: 0;}
         100% {opacity: 0;}
       }
 
