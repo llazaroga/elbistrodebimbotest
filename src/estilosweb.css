@@ -671,7 +671,7 @@ section{
     @keyframes patitader3 {
         
         0% { opacity: 1; }
-        34% {opacity: 0}
+        34% {opacity: 0;}
         100% {opacity: 0;}
       }
     
