@@ -590,7 +590,8 @@ section{
           width: 4vw;
           margin-left: 40vw;
           animation-name: patitaizq1;
-          animation-duration: 8s;
+          animation-duration: 4s;
+	  animation-delay: 4s;
           animation-iteration-count: infinite;
           animation-direction: normal;
       }
@@ -604,7 +605,8 @@ section{
             margin-bottom: 3vh;
             margin-left: 2vw;
             animation-name: patitader1;
-            animation-duration: 8s;
+            animation-duration: 4s;
+	    animation-delay: 4s;
             animation-iteration-count: infinite;
             animation-direction: normal;
       }
@@ -619,7 +621,8 @@ section{
         width: 4vw;
         margin-left: 40vw;
         animation-name: patitaizq2;
-        animation-duration: 8s;
+        animation-duration: 6s;
+	animation-delay: 2s;
         animation-iteration-count:infinite ;
         animation-direction: normal;
       }
@@ -634,7 +637,8 @@ section{
             margin-bottom: 3vh;
             margin-left: 2vw;
             animation-name: patitader2;
-            animation-duration: 8s;
+            animation-duration: 6s;
+	    animation-delay: 2s;	      
             animation-iteration-count: infinite;
             animation-direction: normal;
       }
