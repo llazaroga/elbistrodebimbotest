@@ -590,13 +590,13 @@ section{
           width: 4vw;
           margin-left: 40vw;
           animation-name: patitaizq1;
-          animation-duration: 4s;
-	  animation-delay: 4s;
+          animation-duration: 8s;
           animation-iteration-count: infinite;
           animation-direction: normal;
       }
       @keyframes patitaizq1 {
-        0% { opacity: 0; }
+        0% {opacity: 0;}
+	60% {opacity: 0;}
         75% {opacity: 1;}
         100% {opacity: 1;}
       }
@@ -605,13 +605,13 @@ section{
             margin-bottom: 3vh;
             margin-left: 2vw;
             animation-name: patitader1;
-            animation-duration: 4s;
-	    animation-delay: 4s;
+            animation-duration: 8s;
             animation-iteration-count: infinite;
             animation-direction: normal;
       }
       @keyframes patitader1 {
-        0% { opacity: 0; }
+        0% {opacity: 0;}
+	75% {opacity: 0;}
         90% {opacity: 1;}
         100% {opacity: 1;}
       }
@@ -621,13 +621,13 @@ section{
         width: 4vw;
         margin-left: 40vw;
         animation-name: patitaizq2;
-        animation-duration: 6s;
-	animation-delay: 2s;
+        animation-duration: 8s;
         animation-iteration-count:infinite ;
         animation-direction: normal;
       }
       @keyframes patitaizq2 {
-        0% { opacity: 0; }
+        0% { opacity: 0;}
+	30% { opacity: 0;}
         45% {opacity: 1;}
         100% {opacity: 1;}
       }
@@ -637,13 +637,13 @@ section{
             margin-bottom: 3vh;
             margin-left: 2vw;
             animation-name: patitader2;
-            animation-duration: 6s;
-	    animation-delay: 2s;	      
+            animation-duration: 8s;
             animation-iteration-count: infinite;
             animation-direction: normal;
       }
       @keyframes patitader2 {
-        0% { opacity: 0; }
+        0% { opacity: 0;}
+	45% {opacity: 0;}
         60% {opacity: 1;}
         100% {opacity: 1;}
       }
@@ -658,7 +658,7 @@ section{
         animation-direction: normal;
       }
       @keyframes patitaizq3 {
-        0% { opacity: 0; }
+        0% { opacity: 0;}
         15% {opacity: 1;}
         100% {opacity: 1;}
       }
@@ -673,7 +673,8 @@ section{
         animation-direction: normal;
     }
     @keyframes patitader3 {
-        0% { opacity: 0; }
+        0% { opacity: 0;}
+	15% { opacity: 0;}
         30% {opacity: 1;}
         100% {opacity: 1;}
       }
