@@ -1,4 +1,4 @@
-$(document).ready(function(){
+
     
     $(".logo-hueso a, .carta a, .logo_clips a").on('click', function(event) {
   
@@ -19,4 +19,3 @@ $(document).ready(function(){
         });
       } 
     });
-  });
