@@ -589,7 +589,7 @@ section{
       }
       @keyframes patitaizq1 {
         
-        0% { opacity: 100%; }
+        0% { opacity: 1; }
         80% {opacity: 0}
         100% {opacity: 0;}
         
@@ -606,7 +606,7 @@ section{
 
       @keyframes patitaizq2 {
         
-        0% { opacity: 100%; }
+        0% { opacity: 1; }
         51% {opacity: 0}
         100% {opacity: 0;}
       }
@@ -621,7 +621,7 @@ section{
       }
       @keyframes patitaizq3 {
         
-        0% { opacity: 100%; }
+        0% { opacity: 1; }
         17% {opacity: 0}
         100% {opacity: 0;}
       }
@@ -637,7 +637,7 @@ section{
       }
       @keyframes patitader1 {
         
-        0% { opacity: 100%; }
+        0% { opacity: 1; }
         85% {opacity: 0}
         100% {opacity: 0;}
       }
@@ -653,7 +653,7 @@ section{
         }
       @keyframes patitader2 {
         
-        0% { opacity: 100%; }
+        0% { opacity: 1; }
         68% {opacity: 0}
         100% {opacity: 0;}
       }
@@ -670,7 +670,7 @@ section{
     }
     @keyframes patitader3 {
         
-        0% { opacity: 100%; }
+        0% { opacity: 1; }
         34% {opacity: 0}
         100% {opacity: 0;}
       }
