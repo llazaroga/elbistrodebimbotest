@@ -1,0 +1,768 @@
+
+body{
+    background-color: #88bbba;
+    margin: 0;
+    }
+
+.container{
+    width:100%;
+    height: 30vh;
+    background-color:#78adad;
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr;
+}
+
+.banner-pequeño {
+    display: flex;
+    align-items: center;
+}
+    .banner-pequeño img{
+        width: 45vw;
+    }
+.logo_nuevo {
+    display: flex;
+    align-items: center;
+    }
+    .logo_nuevo img{
+        width: 8vw;
+        padding-left: 1.5vw;
+    }
+    
+
+.navigation{
+    display: flex;
+    align-items: center;
+    float: right;
+    justify-self: right;
+}
+
+    .navigation ul {
+        padding-right: 3vw;
+        padding-left: 0;
+        list-style-type: none;
+        text-align: right;
+    }
+
+    .navigation li {
+        display: inline-block;
+    }
+
+        .navigation li a {
+            display: block;
+            color: #201d1e;
+            text-align: center;
+            text-decoration: none;
+            font-family: 'Pacifico', sans-serif;
+            font-size: calc(0.5em + 1.5vw);
+        }
+
+            .navigation li a:hover {
+                color: #8b5482; 
+                
+            }
+
+            .navigation li a::after {
+                content: "·";
+                padding-left: 1vw;
+                padding-right: 1vw;
+            }
+
+        .navigation li:last-child a::after {
+            content: none;
+        }
+
+        #seleccionado a{
+            color: #8b5482;
+        }
+        
+        .navigation{
+            display: flex;
+            align-items: center;
+            float: right;
+            justify-self: right;
+        }
+        
+            .navigation-footer ul {
+                padding-right: 2vw;
+                padding-left: 0;
+                list-style-type: none;
+                text-align: right;
+            }
+        
+            .navigation-footer li {
+                display: inline-block;
+                
+            }
+        
+                .navigation-footer li a {
+                    display: block;
+                    color: #201d1e;
+                    text-align: center;
+                    text-decoration: none;
+                    font-family:  'Courier New', Courier, monospace;
+                    font-weight: bold;
+                    font-size: calc(0.6em + 1vw);
+                }
+        
+                    .navigation-footer li a:hover {
+                        color: #8b5482; 
+                        
+                    }
+        
+                    .navigation-footer li a::after {
+                        content: "·";
+                        padding-left: 1vw;
+                        padding-right: 1vw;
+                    }
+        
+                .navigation-footer li:last-child a::after {
+                    content: none;
+                }
+        
+                #seleccionado a{
+                    color: #26676a;
+                }   
+
+
+
+h1{
+    font-family: 'Pacifico', sans-serif;
+    color: #eff3f1; 
+    font-size: calc(1.5em + 2vw); 
+    text-align: left;
+    }
+
+h2{
+    font-family: 'Zilla Slab Highlight', sans-serif;
+    color: #000000;
+    font-size: 2.5em;
+    margin-top: 8vh;
+}
+
+.titulo-detalle{
+    font-family: 'Pacifico', sans-serif;
+    color: #000000; 
+    font-size: 3em; 
+    text-align: center;
+    margin: 0 20vw;
+}
+
+h3{
+    font-family: 'Pacifico', sans-serif;
+    color: #000000; 
+    font-size: 2.3em; 
+    margin-top:0;
+    
+    }
+
+h4{
+    font-family: 'Zilla Slab Highlight', sans-serif;
+    color: #000000;
+    font-size: calc(1em + 1.2vw);
+    padding-top: 5vh;
+    
+    }
+
+p{
+font-family: 'Courier New', Courier, monospace;
+font-size: calc(1em + 0.4vw);
+}
+
+ul li{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: calc(1em + 0.4vw);
+}
+.tiempos{
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+.tiempos li{
+    list-style: none;
+    font-size: calc(1em + 0.4vw);
+}
+
+body::-webkit-scrollbar {
+	width: 10px;
+}
+body::-webkit-scrollbar-track {
+  background: #c0ecec;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #88bbba;
+  border-radius: 6px;
+  border: 2px solid #c0ecec;
+}
+
+
+
+
+.grid-container-left img{
+width:100%;
+max-width: 500px;
+}
+
+.grid-container-right img{
+    width:100%;
+    max-width: 500px;
+}
+
+
+.grid-container-left{
+    display: grid;
+	grid-template-columns: 1fr 2.5fr;
+    text-align: justify;
+}
+
+.grid-container-right{
+    display: grid;
+	grid-template-columns: 2.5fr 1fr;
+    text-align: justify;
+}
+
+.cuadricula{
+    padding: 0 10%;
+}
+
+#ilustraciones img{
+  margin-top: 2vh ;
+}
+
+.grid-item2{
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+}
+
+.grid-item3-right{
+    padding-right: 15%;
+    text-align: right;
+    align-self: center;
+    padding-bottom: 5%;
+}
+
+.grid-item3-left{
+    padding-left: 15%;
+    text-align: left;
+    align-self: center;
+   }
+
+
+#portada{
+    height: 100vh;
+}
+
+
+.logo-index{
+    width: 100%;
+}
+.banner_sub img{
+    width:100%;
+}
+
+
+.logo-bienvenidos{
+    position: absolute;
+    top: 30vh;
+    left: 35vw;
+    width: 30vw;
+}
+
+.logo-bimbo-left{
+    float: left;
+    max-height: 70vh;
+    padding-left: 10vw;
+    max-width: 25vw;
+}
+
+.logo-bimbo-right{
+    float: right;
+    max-height: 70vh;
+    padding-right: 10vw;
+    max-width: 25vw;
+}
+
+.logo-hueso {
+    position: absolute;
+    top: 76vh;
+    left: 42vw;
+}
+
+.logo-hueso img {
+    width: 16vw;  
+}
+.clips{
+    width:100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    height: 10vh;
+    margin-top: 60vh;
+    max-height: 10vh;
+    border-bottom: 80vh;
+
+}
+
+.clip1 img{
+    max-width: 30vw;
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-right: 5vw;
+
+    
+}
+
+.logo_clips img{
+    width:15vw;
+    display: flex;
+    align-content: center;
+    margin: auto;
+
+}
+
+.clip2 img{
+    max-width: 30vw;
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-left: 5vw;
+
+}
+
+
+    
+
+.intro{
+    background-color: #eff3f1;
+    position:absolute;
+    width: 100%;
+    top:100vh;
+    height: 120vh;
+    padding: 10vh 0;
+}
+
+.intro p{
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+}
+
+.footer-index-special{
+    position: relative;
+    padding-left: 5%;
+    top: 100vh;
+    width: 95%;
+    height: 40vh;
+    margin-top: 30vh;
+}
+.footer-index-special p{
+    padding-left: 4vw;
+    padding-right: 7vw;
+    padding-top: 25vh;
+    
+}
+
+.footer-index{
+    position: relative;
+    top: 30vh;
+    width: 100%;
+    height: 23vh;
+    background-color: #78adad;
+    display: flex;
+    align-items: center;
+}
+
+.footer-index p{
+    padding-left: 5vh;
+    padding-right: 7vw;
+    
+}
+
+.footer-index img{
+    width: 8vw;
+    padding-left: 1.5vw;
+}
+
+.nav-images-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 10vh;
+}
+
+
+
+.boton-receta{
+    justify-self: right;
+    width: 80%;
+    height: 5vh;
+}
+    .boton-receta img{
+        width: 10vw;
+    }
+
+
+.boton-container{
+    position:relative;
+    height: fit-content;
+    height: 5vh;
+}
+
+.boton-top{
+    height: 5vh;
+    margin-left: 42.5vw; 
+}
+
+.boton-top img{
+    width: 15vw;
+}
+
+.nav-images-grid img{
+    width: 20vw;
+    padding: 8vh 6.5vw;
+}
+
+.boton-container .boton1 {
+    position:absolute;
+    display: inline;
+}
+.boton-container .boton2 {
+    position:absolute;
+    display: none;
+}
+.boton-container:hover .boton1 {
+    position:absolute;
+    display: none;
+}
+.boton-container:hover .boton2 {
+    position:absolute;
+    display: inline;
+}
+
+
+.bimbocomida img{
+    width:20vw;
+    border: #d77a8f 3vw solid;
+    background-color: #d77a8f;
+    margin-right: 5vw;
+    margin-top: 4vh;
+    margin-bottom: 3vh;
+    border-radius:15vw;
+    float: left;
+}
+
+
+section{
+    padding: 5vh 10vw;
+    text-align: justify;
+    line-height: 5vh;
+}
+
+.receta-foto{
+    width: 45vw;
+    float: right;
+    margin-left: 5vw;
+}
+
+.bimbotasfaim img{
+    width:20vw;
+    border: #d77a8f 3vw solid;
+    border-radius: 15vw;
+    float: right;
+    margin-left: 6vw;
+    margin-top: 5vh;
+    margin-bottom: 4vh;
+    border-radius:15vw;
+    background-color: #d77a8f;
+}
+.nav-recetas{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.boton-anterior {
+    width: 18vw;
+}
+
+.boton-siguiente {
+    width: 18vw;
+}
+
+.boton-anterior img {
+    width: 10vw;
+    padding: 0 4vw;
+}
+
+.boton-siguiente img {
+    width: 10vw;
+    padding: 0 4vw;
+}
+.imagen1 img{
+    width: 30vw;
+    float: right;
+    margin-left: 5vw;
+    margin-bottom: 3vw;
+}
+.imagen2 img{
+    width: 50vw;
+    float: left;
+    margin-right: 5vw;
+}
+.imagen3 img{
+    width: 25vw;
+    float: right;
+    margin-top: 5vw;
+}
+
+
+
+    .carta ul {
+        text-align: right;
+        list-style-type: none;
+    }
+    
+    .carta li {
+        display: inline-block;
+        
+    }
+    
+    .carta li a {
+            text-decoration: none;
+            font-family: 'Pacifico', sans-serif;
+            font-size: calc(0.5em + 1vw);
+            color: #000000;
+            
+        }
+    
+        .carta li a:hover {
+                color: #777777; 
+                
+            }
+    
+            .carta li a::after {
+                content: " ";
+                padding-left: 2vw;
+                padding-right: 2vw;
+            }
+    
+            .carta li:last-child a::after {
+            content: none;
+            padding-left: 2vw;
+            padding-right: 2vw;
+        }
+
+        .box{
+
+            border-bottom: 1vh solid #eff3f1;
+        }
+        
+        .enfasis{
+            font-size: calc(1.8em + 0.8vw);
+            line-height: 10vh;
+        }
+
+    #logotipo_animado{
+        animation-name: animacionindex;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+
+    }
+    @keyframes animacionindex {
+        
+        0% { transform: rotate(0deg); }
+        100%{ transform: rotate(360deg); }
+      }
+    .animacion_patitas img{
+        align-items: center;
+    }
+      
+      
+      #patita_izq1{
+          width: 4vw;
+          margin-left: 40vw;
+          animation-name: patitaizq1;
+          animation-duration: 4s;
+          animation-iteration-count: infinite;
+          animation-direction: alternate;
+
+      }
+      @keyframes patitaizq1 {
+        
+        0% { opacity: 100%; }
+        80% {opacity: 0}
+        100% {opacity: 0;}
+        
+      }
+      #patita_izq2{
+        width: 4vw;
+        margin-left: 40vw;
+        animation-name: patitaizq2;
+        animation-duration: 4s;
+        animation-iteration-count:infinite ;
+        animation-direction: alternate;
+        
+      }
+
+      @keyframes patitaizq2 {
+        
+        0% { opacity: 100%; }
+        51% {opacity: 0}
+        100% {opacity: 0;}
+      }
+      #patita_izq3{
+        width: 4vw;
+        margin-left: 40vw;
+        animation-name: patitaizq3;
+        animation-duration: 4s;
+        animation-iteration-count:infinite ;
+        animation-direction: alternate;
+
+      }
+      @keyframes patitaizq3 {
+        
+        0% { opacity: 100%; }
+        17% {opacity: 0}
+        100% {opacity: 0;}
+      }
+
+      #patita_der1{
+        width: 4vw;
+        margin-bottom: 3vh;
+        margin-left: 2vw;
+        animation-name: patitader1;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      @keyframes patitader1 {
+        
+        0% { opacity: 100%; }
+        85% {opacity: 0}
+        100% {opacity: 0;}
+      }
+
+      #patita_der2{
+            width: 4vw;
+            margin-bottom: 3vh;
+            margin-left: 2vw;
+            animation-name: patitader2;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+      @keyframes patitader2 {
+        
+        0% { opacity: 100%; }
+        68% {opacity: 0}
+        100% {opacity: 0;}
+      }
+
+     #patita_der3{
+                width: 4vw;
+                margin-bottom: 3vh;
+                margin-left: 2vw;
+                animation-name: patitader3;
+                animation-duration: 4s;
+                animation-iteration-count: infinite;
+                animation-direction: alternate;
+
+    }
+    @keyframes patitader3 {
+        
+        0% { opacity: 100%; }
+        34% {opacity: 0}
+        100% {opacity: 0;}
+      }
+    
+
+@media screen and (max-width: 500px){
+    .logo-bienvenidos{
+        position: absolute;
+        top: 40vh;
+        left: 20vw;
+        width: 60vw;
+    }
+    .logo-bimbo-left, .logo-bimbo-right{
+        padding-top: 5vh;
+    }
+    .logo-hueso {
+        position: absolute;
+        top: 76vh;
+        left: 30vw;
+        }
+        .logo-hueso img {
+            width: 40vw;
+        }
+}
+
+@media screen and (max-width: 600px){
+    .grid-container-left{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .grid-container-right{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid-item3-left, .grid-item3-right{
+        text-align: center;
+        padding: 0;
+    }
+
+    .boton-receta{
+        width: 60%;
+    }
+        .boton-receta img {
+            width: 30vw;
+        }
+    .container{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-pequeño img{
+        width: 80vw;
+    }
+    .carta li {
+        display: flex;
+    }
+
+    .footer-index{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-index ul{
+        border: 0;
+        padding:0;
+        margin:0;
+    }
+
+    .boton-top{
+        margin-left: 35vw; 
+        margin-top: 10vh;
+    }
+
+    .boton-top img{
+        width: 30vw;
+    }
+    .logo_nuevo img{
+        width: 15vw;
+        padding-top: 2.5vh;
+    }
+    .footer-index img{
+        width: 15vw;
+        padding-top: 2.5vh;
+    }
+}
