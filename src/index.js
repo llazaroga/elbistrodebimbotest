@@ -1,6 +1,6 @@
 
     
-    $(".logo-hueso a, .carta a, .logo_clips a").on('click', function(event) {
+    $(".logo-hueso a, .carta a, .logo_clips a").click(function(event) {
   
       
       if (this.hash !== "") {
