@@ -573,14 +573,15 @@ section{
         0% { transform: rotate(0deg); }
         100%{ transform: rotate(360deg); }
       }
+
+
+
+
+
+
     .animacion_patitas img{
         align-items: center;
     }
-      
-
-
-
-
 
 
 
@@ -589,7 +590,7 @@ section{
           width: 4vw;
           margin-left: 40vw;
           animation-name: patitaizq1;
-          animation-duration: 4s;
+          animation-duration: 8s;
           animation-iteration-count: infinite;
           animation-direction: normal;
       }
@@ -603,7 +604,7 @@ section{
             margin-bottom: 3vh;
             margin-left: 2vw;
             animation-name: patitader1;
-            animation-duration: 4s;
+            animation-duration: 8s;
             animation-iteration-count: infinite;
             animation-direction: normal;
       }
@@ -618,7 +619,7 @@ section{
         width: 4vw;
         margin-left: 40vw;
         animation-name: patitaizq2;
-        animation-duration: 4s;
+        animation-duration: 8s;
         animation-iteration-count:infinite ;
         animation-direction: normal;
       }
@@ -633,7 +634,7 @@ section{
             margin-bottom: 3vh;
             margin-left: 2vw;
             animation-name: patitader2;
-            animation-duration: 4s;
+            animation-duration: 8s;
             animation-iteration-count: infinite;
             animation-direction: normal;
       }
@@ -648,7 +649,7 @@ section{
         width: 4vw;
         margin-left: 40vw;
         animation-name: patitaizq3;
-        animation-duration: 4s;
+        animation-duration: 8s;
         animation-iteration-count:infinite ;
         animation-direction: normal;
       }
@@ -663,7 +664,7 @@ section{
         margin-bottom: 3vh;
         margin-left: 2vw;
         animation-name: patitader3;
-        animation-duration: 4s;
+        animation-duration: 8s;
         animation-iteration-count: infinite;
         animation-direction: normal;
     }
